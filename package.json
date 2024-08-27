@@ -1,0 +1,30 @@
+{
+	"name": "cv",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@radix-ui/react-avatar": "^1.0.4",
+		"@radix-ui/react-dialog": "^1.0.5",
+		"@radix-ui/react-slot": "^1.0.2",
+		"next": "14.2.1",
+		"react": "^18",
+		"react-dom": "^18"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"autoprefixer": "^10.0.1",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.0",
+		"typescript": "^5"
+	},
+	"packageManager": "pnpm@9.7.1+sha256.46f1bbc8f8020aa9869568c387198f1a813f21fb44c82f400e7d1dbde6c70b40"
+}
