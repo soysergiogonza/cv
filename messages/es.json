@@ -1,0 +1,142 @@
+{
+ "Header": {
+  "Name": "Sergio González Sánchez",
+  "TechStack": [
+   "Frontend Developer | ",
+   "Frontend Architect | ",
+   "Figma | ",
+   "HTML | ",
+   "CSS | ",
+   "JavaScript | ",
+   "TypeScript | ",
+   "Node.js | ",
+   "React.js | ",
+   "Next.js | ",
+   "Redux | ",
+   "Playwright | ",
+   "TanStack Query | ",
+   "React Hook Form | ",
+   "SCRUM | ",
+   "Patrones de Diseño | ",
+   "Profesor de Desarrollo"
+  ],
+  "City": "Medellín, Colombia",
+  "Phone": "+57 3008341223",
+  "Email": "soysergiogonza@gmail.com"
+ },
+ "Links": {
+  "sectionTitle": "Enlaces",
+  "LinkList": [
+   {
+    "title": "LinkedIn",
+    "url": "https://www.linkedin.com/in/soysergiogonza/"
+   },
+   {
+    "title": "GitHub",
+    "url": "https://github.com/soysergiogonza"
+   },
+   {
+    "title": "sergiogonzalez.tech",
+    "url": "https://sergiogonzalez.tech/"
+   }
+  ]
+ },
+ "Profile": {
+  "sectionTitle": "Perfil Profesional",
+  "content": [
+   "Desarrollador Frontend con 3 años de experiencia, me gusta crear productos para la web que sean escalables y fáciles de usar, utilizo las mejores prácticas de la industria con un enfoque en micro-frontend y arquitectura limpia. Tengo sólido conocimiento en TypeScript, React, Next.js, y State Management con Redux y React Query. También he trabajado con React Native, y competente en el uso de tecnologías UI como Figma, CSS como CSS Vanilla, Tailwind y Material UI.",
+   "Mi experiencia me ha permitido trabajar en startups ubicadas en Estados Unidos en proyectos de comercio electrónico y plataformas de administración. Adicionalmente, tengo experiencia como docente en Análisis y Desarrollo de Software, lo que me ha permitido desarrollar fuertes habilidades para resolver problemas, comunicarme asertivamente y liderar proyectos de software."
+  ]
+ },
+ "Experience": {
+  "sectionTitle": "Experiencia",
+  "JobList": [
+   {
+    "title": "Líder Desarrollo Frontend",
+    "company": "Wyncell",
+    "badge": "Remoto",
+    "link": "https://www.linkedin.com/company/wyncell/mycompany/",
+    "startDate": "Junio 2024",
+    "endDate": "Actualmente",
+    "description": [
+     "✣ Liderar el equipo de Desarrollo Frontend en la creación de productos escalables y fáciles de usar.",
+     "✣ Liderar el desarrollo de la plataforma desde cero.",
+     "✣ Implementar opciones de internacionalización para la plataforma web."
+    ]
+   },
+   {
+    "title": "Profesor en Desarrollo de Software",
+    "company": "Asys",
+    "badge": "Presencial",
+    "link": "https://www.linkedin.com/company/politecnico-asys/mycompany/",
+    "startDate": "Febrero 2024",
+    "endDate": "Actualmente",
+    "description": [
+     "✣ Ayudar a mis estudiantes a desarrollar su sentido de la lógica y diseño.",
+     "✣ Enseñar a mis estudiantes según los estándares del Servicio Nacional de Aprendizaje SENA."
+    ]
+   },
+   {
+    "title": "Desarrollador Frontend React",
+    "company": "EvolutionCode",
+    "badge": "Remoto",
+    "link": "https://www.linkedin.com/company/evolutioncode/",
+    "startDate": "Septiembre 2022",
+    "endDate": "Septiembre 2023",
+    "description": [
+     "✣ Crear componentes y funcionalidades según el diseño en Figma y según los tickets en Jira.",
+     "✣ Colaborar con el equipo de desarrollo backend para garantizar que la aplicación cumpla con los requisitos del cliente.",
+     "✣ Participar en reuniones de revisión de clientes para garantizar que la aplicación cumpla con las expectativas."
+    ]
+   },
+   {
+    "title": "Profesor en Desarrollo de Software",
+    "company": "Cetasdi",
+    "badge": "Presencial",
+    "link": "https://www.linkedin.com/company/cetasdi/",
+    "startDate": "Noviembre 2020",
+    "endDate": "Noviembre 2021",
+    "description": [
+     "✣ Enseñar a mis estudiantes a diseñar componentes en Figma.",
+     "✣ Enseñar a mis estudiantes a maquetar usando HTML y CSS."
+    ]
+   }
+  ]
+ },
+ "Education": {
+  "sectionTitle": "Educación",
+  "SchoolList": [
+   {
+    "school": "Servicio Nacional de Aprendizaje SENA",
+    "degree": "Análisis y Desarrollo de Software",
+    "startDate": "Mayo 2023",
+    "endDate": "Agosto 2025"
+   },
+   {
+    "school": "Digital House",
+    "degree": "Desarrollo FullStack",
+    "startDate": "Noviembre 2021",
+    "endDate": "Junio 2022"
+   },
+   {
+    "school": "Cetasdi",
+    "degree": "Técnico en Sistemas",
+    "startDate": "Enero 2016",
+    "endDate": "Junio 2018"
+   }
+  ]
+ },
+ "Languages": {
+  "sectionTitle": "Idiomas",
+  "LanguageList": [
+   {
+    "name": "Español",
+    "level": "Nativo"
+   },
+   {
+    "name": "Inglés",
+    "level": "Intermedio"
+   }
+  ]
+ }
+}
