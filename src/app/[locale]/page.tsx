@@ -1,150 +1,59 @@
-import { LocaleSwitcher } from '@/components/LocaleSwitcher';
+'use client';
+
+import { Card, CardContent} from "@/components/ui/card"
+import { Separator } from "@/components/ui/separator"
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
+import { useState, useEffect } from 'react';
+import { Header } from "@/components/sections/Header";
+import { Profile } from "@/components/sections/Profile";
+import { Experience } from "@/components/sections/Experience";
+import { Education } from "@/components/sections/Education";
+import { Languages } from "@/components/sections/Languages";
 
 export default function Page() {
- const header = useTranslations('Header');
- const links = useTranslations('Links');
- const profile = useTranslations('Profile');
- const experience = useTranslations('Experience');
- const education = useTranslations('Education');
- const languages = useTranslations('Languages');
+  const [currentProfileIndex, setCurrentProfileIndex] = useState(0);
+  const t = useTranslations();
 
- // @ts-ignore
- return (
-  <main className='container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16'>
-   <section className='mx-auto w-full max-w-4xl space-y-8 bg-white print:space-y-4'>
-    <div className='flex items-center justify-between'>
-     <header className='flex flex-col gap-4'>
-      <div className='flex items-center justify-between'>
-       <h1 className='text-5xl font-bold'>{header('Name')}</h1>
-       <LocaleSwitcher />
-      </div>
-      <div className='flex flex-wrap gap-1'>
-       {/*@ts-ignore*/}
-       {header.raw('TechStack').map((skill) => (
-        <span
-         className='print:text-[10px] content-around after:mr-1'
-         key={skill}
-        >
-         {skill}
-        </span>
-       ))}
-      </div>
-      <span
-       className='text-center flex-1 font-mono text-lg text-muted-foreground print:text-[12px]'
-       key={header('City')}
-      >
-       {header('City')}
-      </span>
-      <div className='flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px] justify-between items-center'>
-       <span>{header('Phone')}</span>
-       <span>{header('Email')}</span>
-      </div>
-     </header>
-    </div>
-    <section className='flex flex-col gap-y-3'>
-     <h2 className='text-xl font-bold'>{links('sectionTitle')}</h2>
-     <div className='flex flex-1 gap-4 text-center'>
-      {/*@ts-ignore*/}
-      {links.raw('LinkList').map(({ url, title }) => (
-       <Link href={url} key={title}>
-        {title}
-       </Link>
-      ))}
-     </div>
-    </section>
-    <section className='flex min-h-0 flex-col gap-y-3'>
-     <h2 className='text-xl font-bold'>{profile('sectionTitle')}</h2>
-     {/*@ts-ignore*/}
-     {profile.raw('content').map((summary) => (
-      <p
-       className='text-pretty font-mono text-sm text-muted-foreground print:text-[12px]'
-       key={summary}
-      >
-       {summary}
-      </p>
-     ))}
-    </section>
-    <section className='flex min-h-0 flex-col gap-y-3'>
-     <h2 className='text-xl font-bold'>{experience('sectionTitle')}</h2>
-     {/*@ts-ignore*/}
-     {experience.raw('JobList').map((work) => {
-      return (
-       <div key={work.company}>
-        <div>
-         <div className='flex items-center justify-between gap-x-2 text-base'>
-          <h3 className='inline-flex items-center justify-center gap-x-1 font-semibold leading-none'>
-           <span className='font-mono text-sm leading-none print:text-[12px]'>
-            {work.title}
-           </span>
-           <span className='inline-flex gap-x-1'>
-            <div className='text-xs print:text-[8px] bg-secondary print:px-1 print:py-0.5 inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap'>
-             <span className='text-secondary-foreground'>{work.badge}</span>
-            </div>
-           </span>
-          </h3>
-          <div className='text-sm tabular-nums text-gray-500'>
-           {work.startDate} - {work.endDate ?? 'Present'}
-          </div>
-         </div>
+  const header = useTranslations('Header');
+  const profile = useTranslations('Profile');
+  const experience = useTranslations('Experience');
+  const education = useTranslations('Education');
+  const languages = useTranslations('Languages');
 
-         <Link
-          href={work.link}
-          className='font-mono text-sm leading-none print:text-[12px] hover:underline'
-         >
-          {work.company}
-         </Link>
-        </div>
-        <div className='mt-2 text-xs print:text-[10px]'>
-         {/*@ts-ignore*/}
-         {work.description.map((description) => (
-          <p
-           className='text-pretty font-mono text-sm text-muted-foreground'
-           key={description}
-          >
-           {description}
-          </p>
-         ))}
-        </div>
-       </div>
-      );
-     })}
-    </section>
-    <section className='flex min-h-0 flex-col gap-y-3'>
-     <h2 className='text-xl font-bold'>{education('sectionTitle')}</h2>
-     {/*@ts-ignore*/}
-     {education.raw('SchoolList').map((education) => {
-      return (
-       <div key={education.school}>
-        <div>
-         <div className='flex items-center justify-between gap-x-2 text-base'>
-          <h3 className='font-semibold leading-none'>{education.school}</h3>
-          <div className='text-sm tabular-nums text-gray-500'>
-           {education.startDate} - {education.endDate}
-          </div>
-         </div>
-        </div>
-        <span className='mt-2 print:text-[12px] text-pretty font-mono text-sm text-muted-foreground'>
-         {education.degree}
-        </span>
-       </div>
-      );
-     })}
-    </section>
-    <section className='flex min-h-0 flex-col gap-y-3'>
-     <h2 className='text-xl font-bold'>{languages('sectionTitle')}</h2>
-     {/*@ts-ignore*/}
-     {languages.raw('LanguageList').map((language) => (
-      <p
-       className='text-pretty font-mono text-sm text-muted-foreground print:text-[12px]'
-       key={language.name}
-      >
-       {language.name} ({language.level})
-      </p>
-     ))}
-    </section>
-   </section>
-  </main>
- );
+  const profiles = profile.raw('profiles') || [];
+  const totalProfiles = profiles.length;
+  const currentProfile = profiles[currentProfileIndex] || null;
+
+  useEffect(() => {
+    if (currentProfileIndex >= totalProfiles && totalProfiles > 0) {
+      setCurrentProfileIndex(0);
+    }
+  }, [currentProfileIndex, totalProfiles]);
+
+  return (
+    <main className="min-h-screen bg-gray-100 dark:bg-gray-900 py-8 px-4 print:bg-white print:p-0">
+      <div className="container mx-auto max-w-4xl print:max-w-none">
+        <Card className="shadow-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 print:shadow-none print:border-0">
+          <CardContent className="p-8 print:p-0 space-y-8">
+            <Header header={header} t={t} />
+            <Separator className="border border-gray-200" />
+            <Profile
+              profile={profile}
+              currentProfile={currentProfile}
+              currentProfileIndex={currentProfileIndex}
+              totalProfiles={totalProfiles}
+              setCurrentProfileIndex={setCurrentProfileIndex}
+              t={t}
+            />
+            <Separator className="border border-gray-200" />
+            <Experience experience={experience} />
+            <Separator className="border border-gray-200"/>
+            <Education education={education} />
+            <Separator className="border border-gray-200" />
+            <Languages languages={languages} />
+          </CardContent>
+        </Card>
+      </div>
+    </main>
+  );
 }
