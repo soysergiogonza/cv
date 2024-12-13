@@ -1,203 +1,220 @@
 {
-  "Header": {
-    "Name": "Sergio González Sánchez",
-    "TechStack": [
-      "Frontend Developer",
-      "Frontend Architect",
-      "Figma",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "Node.js",
-      "React.js",
-      "React Native",
-      "Next.js",
-      "Manejo de Estado",
-      "Pruebas Unitarias",
-      "Pruebas de Integración",
-      "Pruebas End-to-End",
-      "React Hook Form",
-      "SCRUM",
-      "Patrones de Diseño",
-      "Profesor de Desarrollo de Software"
+ "Header": {
+  "Name": "Sergio González Sánchez",
+  "TechStack": [
+   "Frontend Developer",
+   "Frontend Architect",
+   "Figma",
+   "HTML",
+   "CSS",
+   "JavaScript",
+   "TypeScript",
+   "Node.js",
+   "React.js",
+   "React Native",
+   "Next.js",
+   "Manejo de Estado",
+   "Pruebas Unitarias",
+   "Pruebas de Integración",
+   "Pruebas End-to-End",
+   "React Hook Form",
+   "SCRUM",
+   "Patrones de Diseño",
+   "Profesor de Desarrollo de Software"
+  ],
+  "Contact": {
+   "City": "Medellín, Colombia",
+   "Phone": "+57 3053957009",
+   "Email": "soysergiogonza@gmail.com"
+  },
+  "Links": [
+   {
+    "title": "LinkedIn",
+    "url": "https://www.linkedin.com/in/soysergiogonza/",
+    "icon": "linkedin"
+   },
+   {
+    "title": "GitHub",
+    "url": "https://github.com/soysergiogonza",
+    "icon": "github"
+   },
+   {
+    "title": "sergiogonzalez.tech",
+    "url": "https://sergiogonzalez.vercel.app/",
+    "icon": "globe"
+   }
+  ]
+ },
+ "Links": {
+  "sectionTitle": "Enlaces",
+  "LinkList": [
+   {
+    "title": "LinkedIn",
+    "url": "https://www.linkedin.com/in/soysergiogonza/"
+   },
+   {
+    "title": "GitHub",
+    "url": "https://github.com/soysergiogonza"
+   },
+   {
+    "title": "sergiogonzalez.tech",
+    "url": "https://sergiogonzalez.vercel.app/"
+   }
+  ]
+ },
+ "Profile": {
+  "sectionTitle": "Perfil Profesional",
+  "profiles": [
+   {
+    "id": "1",
+    "title": "Frontend Developer / TypeScript Engineer",
+    "company": "Comfama",
+    "date": "2024-12-13",
+    "content": [
+     "Desarrollador Frontend con 3 años de experiencia, especializado en arquitectura de software y desarrollo con TypeScript. Mi experiencia incluye el diseño e implementación de soluciones escalables utilizando arquitectura limpia y patrones de diseño. Sólido dominio en el desarrollo de componentes UI sofisticados, integración con APIs REST, y mantenimiento de código limpio y reutilizable.",
+     "Como profesor y líder técnico, he desarrollado fuertes habilidades de mentoría y liderazgo de equipos de desarrollo. Experiencia comprobada en implementación de pruebas unitarias y de integración, revisiones de código, y optimización de rendimiento en aplicaciones. Si bien mi experiencia principal está en el ecosistema React/Next.js, tengo una sólida base en principios de programación orientada a objetos y patrones de diseño que facilitan la adaptación a nuevas tecnologías."
+    ]
+   }
+  ]
+ },
+ "Experience": {
+  "sectionTitle": "Experiencia",
+  "JobList": [
+   {
+    "id": "job2",
+    "title": "Profesor en Desarrollo Frontend",
+    "company": "Politécnico ASYS",
+    "badge": "Temporal",
+    "location": "Rionegro, Antioquia, Colombia",
+    "link": "https://asys.edu.co/",
+    "startDate": "Febrero 2024",
+    "endDate": "Presente",
+    "duration": "11 meses",
+    "description": [
+     "Diseño e implementación de currículum para desarrollo web frontend siguiendo estándares del SENA",
+     "Instrucción en tecnologías fundamentales: HTML, CSS, JavaScript y control de versiones",
+     "Mentoría en lógica de programación y principios de diseño UI/UX",
+     "Evaluación continua del progreso y adaptación de materiales según necesidades del estudiante",
+     "Implementación de proyectos prácticos para fortalecer el aprendizaje hands-on",
+     "Desarrollo de habilidades blandas y pensamiento lógico en los estudiantes"
     ],
-    "Contact": {
-      "City": "Medellín, Colombia",
-      "Phone": "+57 3053957009",
-      "Email": "soysergiogonza@gmail.com"
-    },
-    "Links": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/soysergiogonza/",
-        "icon": "linkedin"
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/soysergiogonza",
-        "icon": "github"
-      },
-      {
-        "title": "sergiogonzalez.tech",
-        "url": "https://sergiogonzalez.vercel.app/",
-        "icon": "globe"
-      }
+    "skills": [
+     "Frontend Development",
+     "HTML",
+     "CSS",
+     "JavaScript",
+     "UI/UX",
+     "Git",
+     "Teaching",
+     "Mentoring"
     ]
-  },
-  "Links": {
-    "sectionTitle": "Enlaces",
-    "LinkList": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/soysergiogonza/"
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/soysergiogonza"
-      },
-      {
-        "title": "sergiogonzalez.tech",
-        "url": "https://sergiogonzalez.vercel.app/"
-      }
+   },
+   {
+    "id": "job1",
+    "title": "Profesor en Desarrollo Frontend",
+    "company": "Centro de Sistemas de Antioquia - CENSA",
+    "badge": "Temporal",
+    "location": "Rionegro, Antioquia, Colombia",
+    "link": "https://www.censa.edu.co/",
+    "startDate": "Noviembre 2024",
+    "endDate": "Diciembre 2024",
+    "duration": "1 meses",
+    "description": [
+     "Diseño e implementación de un programa de estudios enfocado en tecnologías web modernas, incluyendo HTML, CSS y JavaScript.",
+     "Capacitación práctica en el desarrollo de interfaces de usuario y experiencia de usuario (UI/UX).",
+     "Guía en la implementación de mejores prácticas de desarrollo y metodologías ágiles.",
+     "Mentoría personalizada para ayudar a los estudiantes a desarrollar proyectos web prácticos.",
+     "Evaluación continua del progreso de los estudiantes y adaptación del material didáctico según sus necesidades.",
+     "Introducción a herramientas modernas de desarrollo como Git, GitHub y editores de código."
+    ],
+    "skills": [
+     "Frontend Development",
+     "HTML",
+     "CSS",
+     "JavaScript",
+     "UI/UX",
+     "Git"
     ]
-  },
-  "Profile": {
-    "sectionTitle": "Perfil Profesional",
-    "profiles": [
-      {
-        "id": "1",
-        "title": "Desarrollador Frontend",
-        "company": "Globant",
-        "date": "2024-04-25",
-        "content": [
-          "Desarrollador Frontend con más de 3 años de experiencia, especializado en la creación de productos web escalables y de alta calidad. Experto en arquitectura frontend limpia y micro-frontends, con sólido dominio de TypeScript, React, Next.js y gestión de estado con Redux y React Query. Competente en React Native y tecnologías UI como Figma, CSS Vanilla, Tailwind y Material UI.",
-          "Mi experiencia en startups estadounidenses me ha permitido liderar proyectos de comercio electrónico y plataformas administrativas, aplicando las mejores prácticas de la industria y metodologías ágiles. Destaco por mi capacidad para resolver problemas complejos y entregar soluciones técnicas robustas y mantenibles."
-        ]
-      },
-      {
-        "id": "2",
-        "title": "Líder Técnico Frontend",
-        "company": "Mercado Libre",
-        "date": "2024",
-        "content": [
-          "Líder Técnico Frontend con más de 3 años de experiencia, especializado en arquitectura de software y gestión de equipos técnicos. Experto en el diseño e implementación de soluciones escalables utilizando micro-frontends y arquitectura limpia. Dominio avanzado de TypeScript, React, Next.js y patrones de gestión de estado con Redux y React Query.",
-          "He liderado equipos técnicos en startups estadounidenses, dirigiendo el desarrollo de plataformas de comercio electrónico y sistemas administrativos complejos. Mi enfoque combina una sólida experiencia técnica con habilidades de liderazgo, facilitando la entrega de productos de alta calidad y el crecimiento profesional del equipo."
-        ]
-      },
-      {
-        "id": "3",
-        "title": "Desarrollador Frontend / Educador",
-        "company": "Platzi",
-        "date": "2024",
-        "content": [
-          "Desarrollador Frontend y Educador en Desarrollo de Software con más de 3 años de experiencia combinada. Especializado en el desarrollo de aplicaciones web modernas utilizando TypeScript, React, Next.js y arquitecturas frontend avanzadas. Experto en la implementación de micro-frontends y patrones de diseño escalables.",
-          "Como profesor de Análisis y Desarrollo de Software, he desarrollado una capacidad excepcional para comunicar conceptos técnicos complejos y mentorear a futuros desarrolladores. Mi experiencia práctica en startups estadounidenses, combinada con mi rol docente, me permite aportar una perspectiva única que combina la excelencia técnica con habilidades efectivas de comunicación y mentoría."
-        ]
-      }
+   },
+   {
+    "id": "job3",
+    "title": "Frontend Developer Lead",
+    "company": "Wyncell",
+    "badge": "Full-time",
+    "location": "Miami, Florida, United States",
+    "link": "https://wyncell.com/",
+    "startDate": "Junio 2024",
+    "endDate": "Agosto 2024",
+    "duration": "3 meses",
+    "description": [
+     "Lideré el desarrollo frontend de la plataforma de telecomunicaciones desde cero utilizando React, Next.js y Tailwind",
+     "Implementé una arquitectura limpia y escalable, estableciendo patrones y mejores prácticas para el equipo",
+     "Desarrollé la internacionalización completa del sitio utilizando i18n para Next.js",
+     "Colaboré con equipos de backend y DevOps para la integración y despliegue en AWS",
+     "Gestioné el equipo de desarrollo frontend, incluyendo code reviews y mentoría",
+     "Optimicé el rendimiento del sitio y aseguré las mejores prácticas de SEO para Next.js"
+    ],
+    "skills": [
+     "React",
+     "Next.js",
+     "TypeScript",
+     "Tailwind CSS",
+     "React Query",
+     "Clean Architecture",
+     "AWS",
+     "i18n",
+     "Team Leadership"
     ]
-  },
-  "Experience": {
-    "sectionTitle": "Experiencia",
-    "JobList": [
-      {
-        "id": "job1",
-        "title": "Profesor en Desarrollo Frontend",
-        "company": "Centro de Sistemas de Antioquia - CENSA",
-        "badge": "Temporal",
-        "location": "Medellín, Antioquia, Colombia",
-        "link": "https://www.censa.edu.co/",
-        "startDate": "Noviembre 2024",
-        "endDate": "Presente",
-        "duration": "2 meses",
-        "description": [
-          "✣ Diseño e implementación de un programa de estudios enfocado en tecnologías web modernas, incluyendo HTML, CSS y JavaScript.",
-          "✣ Capacitación práctica en el desarrollo de interfaces de usuario y experiencia de usuario (UI/UX).",
-          "✣ Guía en la implementación de mejores prácticas de desarrollo y metodologías ágiles.",
-          "✣ Mentoría personalizada para ayudar a los estudiantes a desarrollar proyectos web prácticos.",
-          "✣ Evaluación continua del progreso de los estudiantes y adaptación del material didáctico según sus necesidades.",
-          "✣ Introducción a herramientas modernas de desarrollo como Git, GitHub y editores de código."
-        ],
-        "skills": [
-          "Frontend Development",
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "UI/UX",
-          "Git"
-        ]
-      },
-      {
-        "id": "job1",
-        "title": "Profesor en Desarrollo Frontend",
-        "company": "Centro de Sistemas de Antioquia - CENSA",
-        "badge": "Temporal",
-        "location": "Medellín, Antioquia, Colombia",
-        "link": "https://www.censa.edu.co/",
-        "startDate": "Noviembre 2024",
-        "endDate": "Presente",
-        "duration": "2 meses",
-        "description": [
-          "✣ Diseño e implementación de un programa de estudios enfocado en tecnologías web modernas, incluyendo HTML, CSS y JavaScript.",
-          "✣ Capacitación práctica en el desarrollo de interfaces de usuario y experiencia de usuario (UI/UX).",
-          "✣ Guía en la implementación de mejores prácticas de desarrollo y metodologías ágiles.",
-          "✣ Mentoría personalizada para ayudar a los estudiantes a desarrollar proyectos web prácticos.",
-          "✣ Evaluación continua del progreso de los estudiantes y adaptación del material didáctico según sus necesidades.",
-          "✣ Introducción a herramientas modernas de desarrollo como Git, GitHub y editores de código."
-        ],
-        "skills": [
-          "Frontend Development",
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "UI/UX",
-          "Git"
-        ]
-      }
-    ]
-  },
-  "Education": {
-    "sectionTitle": "Educación",
-    "SchoolList": [
-      {
-        "id": "edu1",
-        "school": "Servicio Nacional de Aprendizaje SENA",
-        "degree": "Análisis y Desarrollo de Software",
-        "startDate": "Mayo 2023",
-        "endDate": "Agosto 2025"
-      },
-      {
-        "id": "edu2",
-        "school": "Nueva Universidad",
-        "degree": "Máster en Desarrollo Web",
-        "startDate": "2024",
-        "endDate": "2025"
-      }
-    ]
-  },
-  "Languages": {
-    "sectionTitle": "Idiomas",
-    "LanguageList": [
-      {
-        "id": "lang1",
-        "name": "Español",
-        "level": "Nativo"
-      },
-      {
-        "id": "lang2",
-        "name": "Inglés",
-        "level": "Intermedio"
-      },
-      {
-        "id": "lang3",
-        "name": "Francés",
-        "level": "Básico"
-      }
-    ]
-  },
-  "navigation": {
-    "previous": "Perfil anterior",
-    "next": "Siguiente perfil",
-    "print": "Imprimir CV"
-  }
+   }
+  ]
+ },
+ "Education": {
+  "sectionTitle": "Educación",
+  "SchoolList": [
+   {
+    "id": "edu1",
+    "school": "Servicio Nacional de Aprendizaje SENA",
+    "degree": "Tecnólogo en Análisis y Desarrollo de Software",
+    "startDate": "Mayo 2023",
+    "endDate": "Agosto 2025",
+    "description": "Formación especializada en arquitectura frontend, patrones de diseño y desarrollo web moderno. Enfoque en metodologías ágiles y mejores prácticas de la industria. Proyecto destacado: BOTDERESERVAS - Plataforma de reservas con IA para WhatsApp Business."
+   },
+   {
+    "id": "edu2",
+    "school": "Formación Especializada Frontend",
+    "degree": "Frontend Architecture & Development",
+    "startDate": "2020",
+    "endDate": "2023",
+    "description": "Formación continua en desarrollo frontend a través de plataformas líderes como LeonidasEsteban.com y PROtalento. Especialización en: Arquitectura Frontend, React, Next.js, TypeScript, Testing, y Clean Architecture. Proyecto destacado: Implementación de arquitecturas escalables y patrones de diseño en aplicaciones web modernas."
+   },
+   {
+    "id": "edu3",
+    "school": "CETASDI",
+    "degree": "Técnico en Sistemas",
+    "startDate": "2019",
+    "endDate": "2020",
+    "description": "Formación técnica en sistemas con énfasis en mantenimiento de hardware y fundamentos de programación. Primer acercamiento formal al desarrollo de software y pensamiento lógico."
+   }
+  ]
+ },
+ "Languages": {
+  "sectionTitle": "Idiomas",
+  "LanguageList": [
+   {
+    "id": "lang1",
+    "name": "Español",
+    "level": "Nativo"
+   },
+   {
+    "id": "lang2",
+    "name": "Inglés",
+    "level": "Intermedio"
+   }
+  ]
+ },
+ "navigation": {
+  "previous": "Perfil anterior",
+  "next": "Siguiente perfil",
+  "print": "Imprimir CV"
+ }
 }

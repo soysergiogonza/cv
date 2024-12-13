@@ -94,6 +94,16 @@
           "Desarrollador Frontend y Educador en Desarrollo de Software con más de 3 años de experiencia combinada. Especializado en el desarrollo de aplicaciones web modernas utilizando TypeScript, React, Next.js y arquitecturas frontend avanzadas. Experto en la implementación de micro-frontends y patrones de diseño escalables.",
           "Como profesor de Análisis y Desarrollo de Software, he desarrollado una capacidad excepcional para comunicar conceptos técnicos complejos y mentorear a futuros desarrolladores. Mi experiencia práctica en startups estadounidenses, combinada con mi rol docente, me permite aportar una perspectiva única que combina la excelencia técnica con habilidades efectivas de comunicación y mentoría."
         ]
+      },
+      {
+        "id": "1",
+        "title": "Frontend Developer / TypeScript Engineer",
+        "company": "Globant",
+        "date": "2024-04-25",
+        "content": [
+          "Frontend Developer with 3 years of experience, specializing in software architecture and TypeScript development. My experience includes designing and implementing scalable solutions using clean architecture and design patterns. Strong proficiency in developing sophisticated UI components, REST API integration, and maintaining clean, reusable code.",
+          "As a professor and technical lead, I have developed strong mentoring and development team leadership skills. Proven experience in implementing unit and integration tests, code reviews, and application performance optimization. While my primary experience is in the React/Next.js ecosystem, I have a solid foundation in object-oriented programming principles and design patterns that facilitate adaptation to new technologies."
+        ]
       }
     ]
   },
@@ -187,11 +197,6 @@
         "id": "lang2",
         "name": "Inglés",
         "level": "Intermedio"
-      },
-      {
-        "id": "lang3",
-        "name": "Francés",
-        "level": "Básico"
       }
     ]
   },
