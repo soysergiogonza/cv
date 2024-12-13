@@ -104,6 +104,16 @@
           "Frontend Developer with 3 years of experience, specializing in software architecture and TypeScript development. My experience includes designing and implementing scalable solutions using clean architecture and design patterns. Strong proficiency in developing sophisticated UI components, REST API integration, and maintaining clean, reusable code.",
           "As a professor and technical lead, I have developed strong mentoring and development team leadership skills. Proven experience in implementing unit and integration tests, code reviews, and application performance optimization. While my primary experience is in the React/Next.js ecosystem, I have a solid foundation in object-oriented programming principles and design patterns that facilitate adaptation to new technologies."
         ]
+      },
+      {
+        "id": "2",
+        "title": "Frontend Developer / Software Engineer",
+        "company": "Mercado Libre",
+        "date": "Viernes 13 2024",
+        "content": [
+          "Desarrollador Frontend con más de 3 años de experiencia especializado en el desarrollo de aplicaciones web de alto rendimiento y escalables. Sólida experiencia en JavaScript, React, y Node.js, con un historial comprobado en la implementación de soluciones frontend que manejan alta concurrencia y tráfico significativo. Mi experiencia en arquitectura limpia y patrones de diseño me permite crear sistemas eficientes y mantenibles que cumplen con los más altos estándares de la industria.",
+          "Como líder técnico y educador, he desarrollado fuertes habilidades de comunicación interequipos y mentoría, facilitando la colaboración efectiva en entornos multidisciplinarios. Mi enfoque en la calidad del código, testing y optimización de rendimiento se alinea perfectamente con los requisitos de sistemas de alto desempeño. Complemento mi experiencia técnica con un compromiso continuo con el aprendizaje y la innovación, especialmente en tecnologías web abiertas y metodologías ágiles."
+        ]
       }
     ]
   },
