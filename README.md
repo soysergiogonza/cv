@@ -41,7 +41,7 @@ npx create-next-app@latest -- --template soysergiogonza/cv
 ```
 
 ### 2. Añade tu contenido:
-Edita el archivo `src/data/es.json` para crear tu propio Portafolio/CV imprimible.
+Edita el archivo `messages/es.json` para crear tu propio Portafolio/CV imprimible.
 ### 3. Lanza el servidor de desarrollo:
 
 ```bash
