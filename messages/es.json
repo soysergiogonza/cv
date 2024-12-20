@@ -94,6 +94,16 @@
           "Desarrollador de Software con 3 años de experiencia, actualmente finalizando mi formación como Tecnólogo en Análisis y Desarrollo de Software en el SENA. Mi trayectoria combina sólidos fundamentos en programación con experiencia práctica en el desarrollo de aplicaciones web modernas. Domino las tecnologías fundamentales del desarrollo web incluyendo HTML, CSS, JavaScript, y control de versiones con Git, complementado con conocimientos avanzados en estructuras de datos y programación orientada a objetos.",
           "Como educador en desarrollo de software, he demostrado una capacidad excepcional para aprender y adaptarme rápidamente a nuevas tecnologías, mientras mantengo un enfoque metódico en la calidad del código y las mejores prácticas. Mi experiencia en la enseñanza de conceptos fundamentales de programación y mi participación en proyectos escalables me ha permitido desarrollar excelentes habilidades de comunicación y trabajo en equipo, esenciales para contribuir efectivamente en entornos colaborativos y dinámicos."
         ]
+      },
+      {
+        "id": "4",
+        "title": "Frontend Developer / TypeScript Engineer",
+        "company": "Siigo",
+        "date": "2024-12-13",
+        "content": [
+          "Desarrollador Frontend con más de 3 años de experiencia en el desarrollo de aplicaciones web escalables y de alta calidad. Experto en tecnologías como JavaScript, React, y Node.js, con un sólido dominio de arquitecturas de software y patrones de diseño (SOLID). Competente en la implementación de pruebas unitarias y en el uso de herramientas como Docker y CI/CD.",
+          "He liderado proyectos que requieren un alto grado de usabilidad y he desarrollado interfaces utilizando frameworks modernos. Mi enfoque en la mejora continua me ha permitido optimizar la estructura de componentes y generar ideas innovadoras que impactan positivamente en la experiencia del usuario. Estoy comprometido con el aprendizaje continuo y la colaboración en entornos diversos e inclusivos."
+        ]
       }
     ]
   },
