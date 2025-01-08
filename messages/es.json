@@ -94,6 +94,15 @@
           "Desarrollador de Software con 3 años de experiencia, actualmente finalizando mi formación como Tecnólogo en Análisis y Desarrollo de Software en el SENA. Mi trayectoria combina sólidos fundamentos en programación con experiencia práctica en el desarrollo de aplicaciones web modernas. Domino las tecnologías fundamentales del desarrollo web incluyendo HTML, CSS, JavaScript, y control de versiones con Git, complementado con conocimientos avanzados en estructuras de datos y programación orientada a objetos.",
           "Como educador en desarrollo de software, he demostrado una capacidad excepcional para aprender y adaptarme rápidamente a nuevas tecnologías, mientras mantengo un enfoque metódico en la calidad del código y las mejores prácticas. Mi experiencia en la enseñanza de conceptos fundamentales de programación y mi participación en proyectos escalables me ha permitido desarrollar excelentes habilidades de comunicación y trabajo en equipo, esenciales para contribuir efectivamente en entornos colaborativos y dinámicos."
         ]
+      },
+      {
+        "id": "4",
+        "title": "Desarrollador Web",
+        "company": "Lambda Analytics",
+        "date": "2025-01-03",
+        "content": [
+          "Desarrollador Frontend con más de 3 años de experiencia, especializado en arquitectura de software y desarrollo con TypeScript. He liderado equipos en la creación de interfaces de usuario dinámicas utilizando React y Next.js, implementando soluciones escalables con arquitectura limpia y patrones de diseño. Mi experiencia incluye la integración con APIs REST, pruebas unitarias y de integración, y optimización de rendimiento en aplicaciones web. Además, poseo habilidades en la enseñanza y mentoría en desarrollo de software."
+        ]
       }
     ]
   },
