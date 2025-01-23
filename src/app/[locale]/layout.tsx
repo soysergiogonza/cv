@@ -4,6 +4,15 @@ import { getMessages } from 'next-intl/server';
 import type { ReactNode } from 'react';
 
 import './globals.css';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+ title: 'Sergio González Sánchez',
+ description: 'Frontend Developer',
+ icons: {
+  icon: 'favicon.svg',
+ },
+};
 
 export default async function LocaleLayout({
  children,

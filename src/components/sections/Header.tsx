@@ -10,6 +10,7 @@ import {
  Printer,
 } from 'lucide-react';
 import { usePathname, useRouter } from 'next/navigation';
+import { Fragment } from 'react';
 
 const ICONS = {
  linkedin: <Linkedin className='h-4 w-4' />,
@@ -83,12 +84,10 @@ export function Header({ header }: HeaderProps) {
      {header('Contact.Phone')}
     </a>
     {header.raw('Links').map((link: any, index: number) => (
-     <>
-      <span key={`separator-${index}`} className='text-muted-foreground'>
-       |
-      </span>
+     <Fragment key={`separator-${link.title}-${index}`}>
+      <span className='text-muted-foreground'>|</span>
       <a
-       key={link.url}
+       key={`${link.title}-${index}`}
        href={link.url}
        target='_blank'
        className='flex items-center gap-2'
@@ -97,7 +96,7 @@ export function Header({ header }: HeaderProps) {
        {ICONS[link.icon as keyof typeof ICONS]}
        {link.title}
       </a>
-     </>
+     </Fragment>
     ))}
    </div>
   </header>

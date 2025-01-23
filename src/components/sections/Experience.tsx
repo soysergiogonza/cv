@@ -1,6 +1,6 @@
 import { Card } from '@/components/ui/card';
-import { MapPin } from 'lucide-react';
 import type { ExperienceProps } from '@/types/cv';
+import { MapPin } from 'lucide-react';
 
 export function Experience({ experience }: ExperienceProps) {
  return (
@@ -9,7 +9,7 @@ export function Experience({ experience }: ExperienceProps) {
    <Card className='p-6 border border-gray-200'>
     <div>
      {experience.raw('JobList').map((job: any, index: number) => (
-      <div key={job.title} className='flex flex-col gap-4'>
+      <div key={`${job.title}${index}`} className='flex flex-col gap-4'>
        <div className='flex items-start justify-between'>
         <div className='flex flex-col items-start justify-between w-full'>
          <div className='flex items-center gap-2 justify-between w-full'>
@@ -22,21 +22,21 @@ export function Experience({ experience }: ExperienceProps) {
            {job.company}
           </a>
           <div className='text-sm text-muted-foreground'>
-         <span>
-          {job.startDate} - {job.endDate}
-         </span>
-        </div>
+           <span>
+            {job.startDate} - {job.endDate}
+           </span>
+          </div>
          </div>
          <div className='flex gap-1 w-full justify-between'>
           <div className='flex gap-2 items-center'>
-            <h3 className='text-[15px] font-medium'>{job.title}</h3>
-            <span className='inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 w-fit'>
-             {job.badge}
-            </span>
+           <h3 className='text-[15px] font-medium'>{job.title}</h3>
+           <span className='inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 w-fit'>
+            {job.badge}
+           </span>
           </div>
           <div className='flex items-center gap-1 text-muted-foreground text-sm'>
-            <MapPin className='h-3 w-3' />
-            <span>{job.location}</span>
+           <MapPin className='h-3 w-3' />
+           <span>{job.location}</span>
           </div>
          </div>
         </div>
