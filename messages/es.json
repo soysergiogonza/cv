@@ -11,6 +11,7 @@
    "TypeScript",
    "Node.js",
    "React.js",
+   "Angular",
    "React Native",
    "Next.js",
    "Manejo de Estado",
@@ -102,6 +103,16 @@
     "date": "2025-01-03",
     "content": [
      "Desarrollador Frontend con más de 3 años de experiencia, especializado en arquitectura de software y desarrollo con TypeScript. He liderado equipos en la creación de interfaces de usuario dinámicas utilizando React y Next.js, implementando soluciones escalables con arquitectura limpia y patrones de diseño. Mi experiencia incluye la integración con APIs REST, pruebas unitarias y de integración, y optimización de rendimiento en aplicaciones web. Además, poseo habilidades en la enseñanza y mentoría en desarrollo de software."
+    ]
+   },
+   {
+    "id": "5",
+    "title": "Frontend Developer",
+    "company": "ITM",
+    "date": "2025-01-24",
+    "content": [
+     "Desarrollador Frontend con más de 3 años de experiencia especializado en el desarrollo de aplicaciones web de alto rendimiento y escalables. Sólida experiencia en JavaScript, React, Angular y Node.js, con un historial comprobado en la implementación de soluciones frontend que manejan alta concurrencia y tráfico significativo. Mi experiencia en arquitectura limpia y patrones de diseño me permite crear sistemas eficientes y mantenibles que cumplen con los más altos estándares de la industria.",
+     "Como líder técnico y educador, he desarrollado fuertes habilidades de comunicación y mentoría, facilitando la colaboración efectiva en entornos multidisciplinarios. Mi enfoque en la calidad del código, testing y optimización de rendimiento se alinea perfectamente con los requisitos de sistemas de alto desempeño. Complemento mi experiencia técnica con un compromiso continuo con el aprendizaje y la innovación, especialmente en tecnologías web abiertas y metodologías ágiles."
     ]
    }
   ]
